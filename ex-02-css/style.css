@@ -1,0 +1,38 @@
+html, body {
+  height: 500px;
+  width: 1000px
+  margin: 0;
+}
+
+.containu {
+width:100%;
+background-color: red;
+height:100%;
+}
+
+div {
+  display: block;
+}
+
+.first {
+background-color: grey;
+height: 25%;
+}
+
+.col-md-2 {
+  width: 5%;
+  height: 100%;
+  float: left;
+  background-color: white;
+}
+
+
+.second {
+  background-color: yellow;
+  height: 25%
+}
+
+.third {
+  background-color: blue;
+  height: 25%;
+}

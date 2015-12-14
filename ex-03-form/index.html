@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/CSS" href="style.css" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $(document).on("click", "form", function() {
+        // ajouter la classe rouge
+        var color = $("#choix option:selected").text();
+        console.log("hello " + color);
+        if (color === "Bleu") {
+          $(".selection").append('<div class="blue"></div>');
+        } else if (color === "Vert") {
+          $(".selection").append('<div class="green"></div>');
+        } else if (color === "Noir") {
+          $(".selection").append('<div class="black"></div>');
+
+        }
+        //$(this).hide();
+      });
+      $("form").on("submit", function(e) {
+        e.preventDefault();
+        //$(this).replaceWith('<div class="red"></div>');
+
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <form>
+    <select id="choix" type="text" name="choix">
+
+      <option value="Noir">Noir</option>
+      <option value="Vert">Vert</option>
+      <option value="Bleu">Bleu</option>
+
+    </select>
+    <input type="text" placeholder="choisir une couleur">
+    <br/>
+    <br/>
+    <input type="submit">
+    <div class="selection">
+    </div>
+
+
+  </form>
+
+</body>
+
+</html>

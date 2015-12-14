@@ -1,0 +1,10 @@
+
+function arrayMaker (max) {
+  var Number = [];
+for(var a=1; a< max ; a++){
+
+}
+
+
+
+}

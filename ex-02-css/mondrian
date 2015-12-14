@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" />
+    <title></title>
+  </head>
+  <body>
+  <div class="containu">
+  <div class="row first">
+  <div class= "col-md-2"></div>
+  <div class= "col-md-3"></div>
+  <div class= "col-md-2"></div>
+  <div class= "col-md-5"></div>
+  <div class= "col-md-2"></div>
+  <div class= "col-md-2 f"></div>
+</div>
+<div class="row second">
+  <div class= "col-md-2"></div>
+  <div class= "col-md-2"></div>
+  <div class= "col-md-2"></div>
+  <div class= "col-md-2"></div>
+  <div class= "col-md-2"></div>
+  <div class= "col-md-2"></div>
+</div>
+<div class="row third">
+  <div class= "col-md-2"></div>
+  <div class= "col-md-2"></div>
+  <div class= "col-md-2"></div>
+  <div class= "col-md-2"></div>
+  <div class= "col-md-2"></div>
+  <div class= "col-md-2"></div>
+</div>
+<div class="row four">
+  <div class= "col-md-2"></div>
+  <div class= "col-md-2"></div>
+  <div class= "col-md-2"></div>
+  <div class= "col-md-2"></div>
+  <div class= "col-md-2"></div>
+  <div class= "col-md-2"></div>
+</div>
+<div class="row five">
+  <div class= "col-md-2"></div>
+  <div class= "col-md-2"></div>
+  <div class= "col-md-2"></div>
+  <div class= "col-md-2"></div>
+  <div class= "col-md-2"></div>
+  <div class= "col-md-2"></div>
+</div>
+  </div>
+  </body>
+  </html>

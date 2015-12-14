@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/CSS" href="style.css" />
+  <script language="Javascript">
+  function calcul(){
+  var Resulat = document.getElementById("Resultat");
+	var valeur1 = document.getElementById("valeur1").value;
+  var valeur2 = document.getElementById("valeur2").value;
+  var valeur3 = document.getElementById("valeur3").value;
+  var valeur4 = document.getElementById("valeur4").value;
+
+  Resultat.value = (parseInt(valeur1) +  parseInt(valeur2) + parseInt(valeur3) + parseInt(valeur4);
+}
+  </script>
+
+</head>
+
+<body>
+  <form id="Resultat">
+    <input id="valeur1" type="text" name="valeur1" placeholder="chiffre"autofocus required>
+    </br>
+    </br>
+    <input id="valeur2" type="text" name="valeur2"  placeholder="chiffre"required>
+    </br>
+    </br>
+
+    <input id="valeur3" type="text" name="valeur3" placeholder="chiffre" required>
+    </br>
+    </br>
+    <input id="valeur4" type="text" name="valeur4" placeholder="chiffre" required>
+    </br>
+    </br>
+    <input type="submit" value="Envoyer" />
+  </form>
+
+</body>
+
+</html>

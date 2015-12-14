@@ -1,0 +1,33 @@
+html, body {
+  height: 250px;
+  width: 500px
+  margin: 0;
+}
+@font-face {
+  font-family:'fightthis';
+  src:url('/home/simplonmars/teléchargements/FIGHTT3_.ttf');
+}
+.container {
+width:450px;
+background-color: pink;
+height:250px;
+transform: rotate(20deg);
+box-shadow: 15px -50px 5px #F5A9BC;
+border-radius: 10px;
+position: relative;
+left : 100px;
+top: 100px;
+}
+
+
+
+p{
+  text-align: center;
+  font-size: 100px;
+  text-shadow: 5px 5px 5px black;
+  font-family: 'fightthis';
+  color : pink;
+  padding-top: 50px;
+  line-height: 70px;
+
+}

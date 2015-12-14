@@ -1,0 +1,12 @@
+a {
+  color:blue
+}
+
+a[href*=https] {
+  color:red
+}
+
+
+a[href*=https]::before {
+  content: "→"
+}
